@@ -56,7 +56,7 @@ spec:
       # Note that this does not guarantee admission on the nodes (#40573).
       annotations:
         scheduler.alpha.kubernetes.io/critical-pod: ''
-        awsRole: arn:aws:iam::171861607364:role/kops-acess
+        awsRole: yourarnhere
         logGroupName: k8s-dev
     spec:
       serviceAccountName: fluentd
